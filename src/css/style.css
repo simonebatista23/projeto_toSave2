@@ -146,7 +146,9 @@ footer .tosave i {
     margin-top: 30px;
 }
 
-
+.sessao2 .texto2 a {
+    padding: 4px 38px
+}
 
 .sessao2 .texto2 button {
     margin-left: 30%;
@@ -198,7 +200,7 @@ footer .tosave i {
         margin-top: 10px;
         font-size: 8px;
     }
-
+   
     .sessao2 .texto2 p {
         font-size: 12px;
     }
@@ -214,5 +216,11 @@ footer .tosave i {
 
     .sessao3 p {
         font-size: 20px;
+    }
+    footer .tosave{
+        font-size: 25px;
+    }
+    footer .tosave i{
+        font-size: 32px;
     }
 }
