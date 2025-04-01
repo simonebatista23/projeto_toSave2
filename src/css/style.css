@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: "Archivo", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+main {
+    max-width: 1440px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.capa {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.sessao1,
+.sessao2,
+.capa {
+    position: relative;
+    /* Define a referência para o position absolute */
+    display: inline-block;
+    /* Ajusta ao tamanho do conteúdo */
+}
+
+.sessao1 .texto1 {
+    position: absolute;
+    top: 30%;
+    margin-left: 10%;
+    padding: 10px;
+
+}
+
+.sessao2 .texto2 {
+    position: absolute;
+    top: 30%;
+    padding: 10px;
+    left: 50%;
+}
+
+.capa .texto0 {
+    position: absolute;
+    top: 30%;
+    width: 500px;
+    padding: 10px;
+    left: 5%;
+}
+.capa .texto0 .logo .to{
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    color:#82593c;
+    line-height: 2px;
+}
+.capa .texto0 .logo .save{
+    font-weight: 500;
+}
+
+.capa .texto0 h2 {
+    font-size: 48px;
+}
+
+
+.capa .texto0 span {
+    color: #82593c;
+}
+
+.capa .texto0 p {
+    font-size: 30px;
+}
+
+.sessao1 .texto1 h1 {
+    font-size: 68px;
+}
+
+.sessao2 .texto2 h2 {
+    font-size: 48px;
+}
+
+.sessao2 .texto2 span {
+    text-transform: uppercase;
+    font-style: italic;
+}
+.sessao3 p{
+    font-size: 32px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+footer .tosave {
+    font-size: 48px;
+    font-style: italic;
+}
+
+footer .tosave i {
+    font-size: 58px;
+    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+    color: #82593c;
+}
+
+.rede-social img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.sessao1 .texto1 button,
+.sessao2 .texto2 a {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: #bc8d6b;
+    padding: 4px 10px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+
+.sessao2 .texto2 button {
+    margin-left: 30%;
+}
+
+@media(max-width:950px) {
+
+    .capa .texto0 p,
+    footer .tosave {
+        font-size: 28px;
+    }
+
+    .sessao1 .texto1 h1 {
+        font-size: 30px;
+    }
+
+    .sessao2 .texto2 h2 {
+        font-size: 28px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .capa .texto0 p {
+        font-size: 12px;
+    }
+
+    .capa .texto0 h2,
+    footer .tosave {
+        font-size: 20px;
+    }
+
+    .capa .texto0 {
+        width: 230px;
+        top: 10%;
+    }
+
+    .sessao1 .texto1 h1 {
+        font-size: 18px;
+    }
+
+    .sessao2 .texto2 h2 {
+        font-size: 16px;
+    }
+
+    .sessao1 .texto1 button,
+    .sessao2 .texto2 button {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .sessao2 .texto2 {
+        top: 22%;
+        left: 45%;
+    }
+
+    .sessao2 .texto2 span {
+        font-size: 10px;
+    }
+}
