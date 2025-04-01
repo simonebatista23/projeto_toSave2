@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -65,13 +66,16 @@ img {
     padding: 10px;
     left: 5%;
 }
-.capa .texto0 .logo .to{
+
+.capa .texto0 .logo .to {
     font-family: "Cormorant Garamond", serif;
     font-style: italic;
-    color:#82593c;
+    color: #82593c;
     line-height: 2px;
+    font-weight: bold;
 }
-.capa .texto0 .logo .save{
+
+.capa .texto0 .logo .save {
     font-weight: 500;
 }
 
@@ -100,7 +104,8 @@ img {
     text-transform: uppercase;
     font-style: italic;
 }
-.sessao3 p{
+
+.sessao3 p {
     font-size: 32px;
 }
 
@@ -130,7 +135,7 @@ footer .tosave i {
     margin-top: 10px;
 }
 
-.sessao1 .texto1 button,
+.sessao1 .texto1 a,
 .sessao2 .texto2 a {
     display: inline-block;
     border: none;
@@ -149,8 +154,7 @@ footer .tosave i {
 
 @media(max-width:950px) {
 
-    .capa .texto0 p,
-    footer .tosave {
+    .capa .texto0 p {
         font-size: 28px;
     }
 
@@ -167,11 +171,11 @@ footer .tosave i {
 @media (max-width: 600px) {
     .capa .texto0 p {
         font-size: 12px;
+        line-height: 16px;
     }
 
-    .capa .texto0 h2,
-    footer .tosave {
-        font-size: 20px;
+    .capa .texto0 h2 {
+        font-size: 28px;
     }
 
     .capa .texto0 {
@@ -188,17 +192,25 @@ footer .tosave i {
     }
 
     .sessao1 .texto1 button,
-    .sessao2 .texto2 button {
+    .sessao2 .texto2 a {
         margin-top: 10px;
         font-size: 12px;
     }
 
+    .sessao2 .texto2 p {
+        font-size: 12px;
+    }
+
     .sessao2 .texto2 {
-        top: 22%;
+        top: 20%;
         left: 45%;
     }
 
     .sessao2 .texto2 span {
         font-size: 10px;
+    }
+
+    .sessao3 p {
+        font-size: 20px;
     }
 }
