@@ -15,15 +15,18 @@ body {
     justify-content: center;
     width: 100%;
     flex-direction: column;
+    visibility: hidden;
+}
+
+body.mostrar {
+    visibility: visible;
 }
 
 main {
     max-width: 1440px;
-    /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .capa {
@@ -39,9 +42,9 @@ img {
 .sessao2,
 .capa {
     position: relative;
-    /* Define a referência para o position absolute */
+
     display: inline-block;
-    /* Ajusta ao tamanho do conteúdo */
+
 }
 
 .sessao1 .texto1 {
@@ -184,9 +187,11 @@ footer .tosave i {
         width: 230px;
         top: 10%;
     }
-    .sessao1 .texto1{
+
+    .sessao1 .texto1 {
         top: 25%;
     }
+
     .sessao1 .texto1 h1 {
         font-size: 24px;
     }
@@ -200,7 +205,7 @@ footer .tosave i {
         margin-top: 10px;
         font-size: 8px;
     }
-   
+
     .sessao2 .texto2 p {
         font-size: 12px;
     }
@@ -217,10 +222,12 @@ footer .tosave i {
     .sessao3 p {
         font-size: 20px;
     }
-    footer .tosave{
+
+    footer .tosave {
         font-size: 25px;
     }
-    footer .tosave i{
+
+    footer .tosave i {
         font-size: 32px;
     }
 }
